@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+	font-family: "MyFont";
+	src: url("fonts/odstemplik/odstemplik.otf"), url("fonts/odstemplik/odstemplikBold.otf");
+}
+
+.top-wrapper {
+    text-align: center;
+    height: 680px;
+    background-image: url("imgs/img01.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.top-wrapper h1{
+    font-size: 100px;
+    font-family: "Myfont";
+    padding-top: 230px;
+}
+
+.nav-logo {
+    font-family: "Myfont";
+    font-size: 25px;
+}
+
+.font {
+    padding-right: 5px;
+}
+
+.night-sky-wrapper {
+    text-align: center;
+    background-image: url(imgs/fix-bg.jpg);
+    background-attachment: fixed;
+    color: white;
+    padding: 200px 0;
+}
+
+.night-sky-wrapper h2 {
+    font-family: "Myfont";
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+
+.slide-environment {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 10%;
+}
+
+.survice-wrapper {
+    background-color: #333;
+    color: white;
+    padding: 50px 150px 40px 150px;
+}
+
+@media screen and (min-width:480px) {
+    /*　画面サイズが480pxからはここを読み込む　*/
+    .survice-wrapper { padding: 50px 100px 0 100px;
+}
+}
+
+@media screen and (min-width:768px) {
+    /*　画面サイズが480pxからはここを読み込む　*/
+    .survice-wrapper { padding: 50px 70px 20px 50px;
+}
+}
+
+
+
+.survice-wrapper h2{
+    font-family: "Myfont";
+    font-size:80px;
+    text-align: center;
+    color: white;
+}
+
+.discription {
+    margin-bottom: 10px;
+}
+
+.discription h3 {
+    border-bottom: solid 1px white;
+    padding: 30px 0 20px 0;
+    margin-bottom: 20px;
+}
+
+.each-info {
+    border: solid 2px white;
+    margin: 20px;
+    padding: 50px 20px 30px 20px;
+}
+
+.each-info p {
+    margin-top: 20px;
+}
+
+.logo {
+    font-size: 100px;
+}
+
+footer {
+    color: white;
+    background-color: #333;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+footer ul li a:hover {
+    color: white;
+}
+
+footer p {
+    text-align: right;
+    margin-bottom: 0;
+}
